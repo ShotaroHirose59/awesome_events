@@ -2,7 +2,7 @@ ENV['RAILS_ENV'] ||= 'test'
 require_relative '../config/environment'
 require_relative 'sign_in_helper'
 require 'rails/test_help'
-
+require 'minitest/mock'
 
 # Pry.hooks.add_hook(:before_session, "use FactoryBot shorthand") do |output, binding, pry|
   # Object.include FactoryBot::Syntax::Methods
